@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(206, 236, 251);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    padding-left: 1%;
+    background: #fff;
+    color: rgb(98, 93, 90);
+    border-radius: 6px;
+}
+
+input {
+    width: 96%;
+    padding: 10px;
+    font-size: 17px;
+}
+
+input[class="search"] {
+    width:94%;
+    fill: gray;
+    background-image: url(https://i.postimg.cc/4dDdbZLy/search-copia.png);
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    padding-left: 35px;
+    border: 1px solid gray;
+}
+input[class="search"]:focus{
+    background-image: url(https://i.postimg.cc/tTZJx7z8/search.png);
+}
+
+button {
+    padding: 7px;
+    border: 1px solid gray;
+    font-size: 17px;
+    background: rgb(206, 236, 251);
+    color: rgb(44, 94, 174);
+    border-radius: 3px;
+}
+
+button:focus {
+    background: rgb(44, 94, 174);
+    color: rgb(206, 236, 251);
+}
+@media only screen and (max-width: 600px){
+
+    input{
+        width:90%;
+        font-size: 15px;
+    }
+    input[class="search"]{
+        width:85%;
+    }
+    button{
+        font-size: 15px;
+    }
+}

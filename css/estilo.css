@@ -51,7 +51,6 @@ input[class="search"]:focus{
 .btn:active{
 	box-shadow: 0px 6px 0px 0px #909497;
 	margin-top:4px;
-
 }
 i{
 	padding-left: 7px;

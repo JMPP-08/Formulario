@@ -31,19 +31,32 @@ input[class="search"]:focus{
     background-image: url(https://i.postimg.cc/tTZJx7z8/search.png);
 }
 
-button {
+.btn {
     padding: 7px;
-    border: 1px solid gray;
+    border: none;
     font-size: 17px;
     background: rgb(206, 236, 251);
     color: rgb(44, 94, 174);
     border-radius: 3px;
+    width: 100%;
+    box-shadow: 0px 10px 0px 0px #A6ACAF;
+    margin-bottom: 20px;
 }
 
-button:focus {
-    background: rgb(44, 94, 174);
-    color: rgb(206, 236, 251);
+.btn:focus { outline: none;}
+.btn:hover{
+	background: rgb(44, 94, 174);
+	color:rgb(206, 236, 251);
 }
+.btn:active{
+	box-shadow: 0px 6px 0px 0px #909497;
+	margin-top:4px;
+
+}
+i{
+	padding-left: 7px;
+}
+
 @media only screen and (max-width: 600px){
 
     input{
@@ -53,7 +66,7 @@ button:focus {
     input[class="search"]{
         width:85%;
     }
-    button{
+    .btn{
         font-size: 15px;
     }
 }

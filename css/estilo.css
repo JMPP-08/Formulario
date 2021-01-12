@@ -38,7 +38,7 @@ input[class="search"]:focus{
     background: rgb(206, 236, 251);
     color: rgb(44, 94, 174);
     border-radius: 3px;
-    width: 100%;
+    width: 98%;
     box-shadow: 0px 10px 0px 0px #A6ACAF;
     margin-bottom: 20px;
 }
@@ -47,10 +47,12 @@ input[class="search"]:focus{
 .btn:hover{
 	background: rgb(44, 94, 174);
 	color:rgb(206, 236, 251);
+	transition: 1s;
 }
 .btn:active{
 	box-shadow: 0px 6px 0px 0px #909497;
 	margin-top:4px;
+	transition: 1s;
 }
 i{
 	padding-left: 7px;
@@ -66,6 +68,7 @@ i{
         width:85%;
     }
     .btn{
+	width:95%;
         font-size: 15px;
     }
 }
